@@ -269,7 +269,7 @@ export default function ComplaintsList() {
             initial={{ opacity: 0, height: 0, marginBottom: 0 }}
             animate={{ opacity: 1, height: 'auto', marginBottom: 16 }}
             exit={{ opacity: 0, height: 0, marginBottom: 0 }}
-            style={{ background: 'rgba(99,102,241,0.12)', border: '1px solid rgba(99,102,241,0.3)', borderRadius: 12, padding: '12px 16px', display: 'flex', alignItems: 'center', justifyBetween: 'space-between', justifyContent: 'space-between' }}
+            style={{ background: 'rgba(99,102,241,0.12)', border: '1px solid rgba(99,102,241,0.3)', borderRadius: 12, padding: '12px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}
           >
             <span style={{ color: '#818CF8', fontSize: 14, fontWeight: 500 }}>{selectedIds.length} complaint{selectedIds.length > 1 ? 's' : ''} selected</span>
             <div className="flex gap-3">

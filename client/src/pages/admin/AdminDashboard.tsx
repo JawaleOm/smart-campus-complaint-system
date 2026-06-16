@@ -458,7 +458,7 @@ export default function AdminDashboard() {
                   </div>
                   <div className="space-y-2">
                     {suggestions.map((sug, i) => (
-                      <div key={sug.staff.id} style={{ display: 'flex', alignItems: 'center', justifycontent: 'space-between', background: i === 0 ? 'rgba(16,185,129,0.08)' : 'rgba(255,255,255,0.03)', border: `1px solid ${i === 0 ? 'rgba(16,185,129,0.2)' : 'rgba(255,255,255,0.06)'}`, borderRadius: 8, padding: '8px 10px' }}>
+                      <div key={sug.staff.id} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: i === 0 ? 'rgba(16,185,129,0.08)' : 'rgba(255,255,255,0.03)', border: `1px solid ${i === 0 ? 'rgba(16,185,129,0.2)' : 'rgba(255,255,255,0.06)'}`, borderRadius: 8, padding: '8px 10px' }}>
                         <div>
                           <div className="flex items-center gap-2">
                             {i === 0 && <span style={{ background: '#10B981', color: '#fff', fontSize: 9, padding: '1px 6px', borderRadius: 10, fontWeight: 700 }}>AI PICK</span>}
